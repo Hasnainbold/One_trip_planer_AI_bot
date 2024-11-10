@@ -12,7 +12,6 @@ The **One-Day Tour Planning Assistant** is a web-based application built using *
 ## Technologies Used
 
 - **Streamlit**: Framework for building the interactive web interface.
-- **OpenAI API**: Used for natural language processing to extract place names from user input.
 - **Google Maps API**: Provides geolocation services to convert place names into latitude and longitude.
 - **Folium**: Library for creating interactive maps.
 - **streamlit-folium**: Integrates `folium` maps with the Streamlit application.
