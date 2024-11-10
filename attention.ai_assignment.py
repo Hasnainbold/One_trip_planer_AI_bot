@@ -74,7 +74,7 @@ if not st.session_state.logged_in:
             # st.error("Invalid login ID or password. Please try again.")
             pass
 
-# !export GOOGLE_PLACES_API_KEY='AIzaSyC4tLTbZ1sjGRjJm6QKCAUO78J4geG0r_w'
+# !export GOOGLE_PLACES_API_KEY=''
 class MemoryAgent:
     def __init__(self):
         self.user_preferences = {}
