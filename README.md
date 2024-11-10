@@ -1,5 +1,5 @@
 # **One-Day Tour Planning Assistant**
-![App Screenshot]("G:\My Drive\attentian.ai\image1.png")
+![App Screenshot](G:\My Drive\attentian.ai\image1.png)
 
 ## **Overview**
 The **One-Day Tour Planning Assistant** is a web-based application built using **Streamlit** to help users create personalized one-day itineraries. It integrates **Mistral 7B model** to analyze conversation input for popular places and **Google Maps API** for geolocation and mapping using **folium**.
