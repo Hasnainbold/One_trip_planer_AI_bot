@@ -9,11 +9,22 @@ The **One-Day Tour Planning Assistant** is a web-based application built using *
 - **Map Visualization**: Generates interactive maps with location markers and optimal travel paths.
 - **Dynamic User Interaction**: Users can input custom conversation texts and generate maps based on extracted locations.
 
-## **Technologies Used**
-- **Streamlit**: For building the web application interface.
-- **Google Maps API**: For geocoding place names to obtain latitude and longitude.
-- **Folium**: For creating interactive maps with location markers and routes.
-- **streamlit-folium**: To integrate `folium` maps within the Streamlit application.
+## Technologies Used
+
+- **Streamlit**: Framework for building the interactive web interface.
+- **OpenAI API**: Used for natural language processing to extract place names from user input.
+- **Google Maps API**: Provides geolocation services to convert place names into latitude and longitude.
+- **Folium**: Library for creating interactive maps.
+- **streamlit-folium**: Integrates `folium` maps with the Streamlit application.
+- **Neo4j**: Used as a vector database for efficient storage and retrieval of structured and unstructured data to enhance data relationships and querying capabilities.
+- **Agents**:
+  - **Interaction Agent**: Handles user interactions and processes user input to generate appropriate responses.
+  - **Optimization Agent**: Optimizes the itinerary based on user preferences, such as budget and time constraints.
+  - **Memory Agent**: Maintains session data to track user inputs and preserve context for continuous interaction.
+  - **Weather Agent**: Fetches and provides real-time weather information for the chosen locations, helping users plan their day more effectively.
+  - **News Agent**: Retrieves relevant news and updates related to the user's chosen destinations or general topics of interest to provide informative context.
+  - **Task-specific Agents**: Custom agents designed to handle specific tasks, such as data retrieval, API integration, and analysis.
+
 
 ## **Installation**
 Follow these steps to set up the project locally:
